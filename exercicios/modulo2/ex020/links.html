@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a{
+            color: #E11501;
+        }
+        a:visited{
+            color: #613430;
+        }
+        a:active{
+            color: #00E018;
+        }
+        .especial{
+            background-color: #6adbc3b7;
+        }
+        .especial::before{
+            content: "-> ";
+        }
+        .especial::after{
+            content: " <-";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/CamilaASenra">GitHub</a></li>
+        <li><a href="https://www.youtube.com/@camila_asenra">Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/camilasenra/" class="especial">LinkedIn</a></li>
+    </ul>
+</body>
+</html>

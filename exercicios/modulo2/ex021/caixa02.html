@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @font-face {
+            font-family: 'robotoFlex';
+            src: url(fonts/robotoFlex.ttf) format(truetype);
+        }
+        body{
+            font-family: 'robotoFlex';
+            background-color: #E65848;
+            margin: 0px;
+        }
+        header{
+            background-color: #343844;
+            color: #FCF2D7;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+        }
+        nav{
+            background-color: #2AB69D;
+            padding: 3px;
+            text-align: center;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+        }
+        nav > a{
+            text-decoration: none;
+            color: #343844;
+            font-weight: bold;
+            padding: 3px 15px;
+            border: 2px solid;
+            box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.384);
+        }
+        nav > a:visited{
+            color: #191b20
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: #5b6277
+        }
+        nav > a:active{
+            color: #FDC536;
+        }
+        main{
+            background-color: #FCF2D7;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+        }
+        article{
+            background-color: #dbd3bb;
+            padding: 5px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+        }
+        article > aside{
+            background-color: #f5ebd0; 
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+        }
+        footer{
+            background-color: #FDC536;
+            text-align: center;
+            font-style: italic;
+            font-weight: bolder;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudos de Tags</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Seção Lorems</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Agora em Lorem</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facilis porro veritatis a veniam nulla nisi dolor animi, maxime doloremque consectetur totam at tempore, sequi neque, voluptas ipsa nam nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi debitis, quas repellat non velit ab illo sapiente aut deleniti. Doloribus in at accusantium nostrum aut voluptates repellendus quibusdam error porro?</p>
+                <aside>
+                    <p>Artigo escrito por Lorem</p>
+                </aside>
+            </article>
+            <article>
+                <h2>E agora?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore dolorum commodi cupiditate reiciendis qui consequatur deserunt enim cum facilis, minus aliquid exercitationem perferendis vitae unde velit a dolores, dicta neque.</p>
+                <aside>Artigo de Lorem</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Senra's Productions.</p>
+    </footer>
+</body>
+</html>
