@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-weight: bold;
+            padding: 10px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .nome {
+            background-color:#A0CD60;
+        }
+        .sexo {
+            background-color: #1C646D;
+        }
+        .idade {
+            background-color: #CEF09D;
+        }
+        .profissao {
+            background-color: #F2E3D5;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">
+        </colgroup>
+        <caption>Estudando colgroup</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camila</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Veterinária</td>
+            </tr>
+            <tr>
+                <td>Bernardo</td>
+                <td>NB</td>
+                <td>22</td>
+                <td>Astrônomo</td>
+            </tr>
+            <tr>
+                <td>Sônia</td>
+                <td>F</td>
+                <td>54</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Neilor</td>
+                <td>M</td>
+                <td>53</td>
+                <td>Operador de máquinas</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

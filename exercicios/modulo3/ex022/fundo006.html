@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho do Fundo</title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;/*Contain Mostra a imagem 100% exibida, sem cortar. Cover ocupa toda a tela, mas não mostra toda a imagem.*/
+            background-attachment: fixed;/*A imagem fica fixa no fundo (ela não vai rolar com o conteúdo).*/
+            /*shorthand background: color > image > position > repeat > [size está na regra, mas na prática não funciona. Então usar ele separado.] > attachement
+            ex: background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;*/
+            
+        } 
+        main{
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de Fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolores, placeat perferendis ducimus quaerat aliquam aliquid mollitia tempore non officiis at numquam ea fuga, omnis provident asperiores minima tempora quidem!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam excepturi maxime facere illum consequatur iusto. Illum commodi mollitia dicta sequi laboriosam in, officia porro quos, doloremque est esse itaque officiis.
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolores, placeat perferendis ducimus quaerat aliquam aliquid mollitia tempore non officiis at numquam ea fuga, omnis provident asperiores minima tempora quidem!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam excepturi maxime facere illum consequatur iusto. Illum commodi mollitia dicta sequi laboriosam in, officia porro quos, doloremque est esse itaque officiis.
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolores, placeat perferendis ducimus quaerat aliquam aliquid mollitia tempore non officiis at numquam ea fuga, omnis provident asperiores minima tempora quidem!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam excepturi maxime facere illum consequatur iusto. Illum commodi mollitia dicta sequi laboriosam in, officia porro quos, doloremque est esse itaque officiis.
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolores, placeat perferendis ducimus quaerat aliquam aliquid mollitia tempore non officiis at numquam ea fuga, omnis provident asperiores minima tempora quidem!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam excepturi maxime facere illum consequatur iusto. Illum commodi mollitia dicta sequi laboriosam in, officia porro quos, doloremque est esse itaque officiis.
+        </p>
+    </main>
+</body>
+</html>
